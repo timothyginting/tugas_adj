@@ -1,0 +1,145 @@
+@media (max-width: 885px) {
+    .pengantar {
+        display: none;
+    }
+    .hero img {
+        display: none;
+    }
+}
+
+@media (max-width: 770px) {
+    .logofoot {
+        display: none;
+    }
+}
+
+body {
+    background-color: #2d2d30;
+    background-image: url('img/bck.jpg');
+}
+
+.carousel-inner img {
+    -webkit-filter: grayscale;
+    filter: grayscale(90%);
+}
+
+.navbar {
+    width: 100%;
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 12px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+    z-index: 9;
+    position: fixed;
+}
+
+.navbar-brand {
+    font-family: RedRock;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.hero img {
+    width: 593px;
+    height: 498px;
+    margin-left: 90px;
+}
+
+.pengantar {
+    margin-right: 70px;
+    text-align: right;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttondaftar {
+    background-color: black;
+    width: 200px;
+    height: 60px;
+    border-radius: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.buttondaftar a {
+    text-decoration: none;
+    color: white;
+}
+
+.page2 {
+    background-color: #2d2d30;
+    width: 100%;
+}
+
+.page2 h1 {
+    color: white;
+}
+
+.Judul1 h1 {
+    font-family: RedRock;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+.page3 {
+    background-color: white;
+    width: 100%;
+}
+
+.page3 h1 {
+    color: black;
+}
+
+.Judul2 h1 {
+    font-family: RedRock;
+    color: black;
+    font-size: 60px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #2d2d30;
+    height: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.logofoot figcaption {
+    color: white;
+    margin-left: 100px;
+}
+
+.logofoot {
+    width: 350px;
+}
+
+.social {
+    width: 300px;
+}
+
+.social h2 {
+    color: white;
+    text-align: left;
+}
+
+.card-text {
+    text-align: center;
+    height: 65px;
+}
